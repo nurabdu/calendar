@@ -10,9 +10,8 @@ display: flex;
 `;
 export default function DayValue(props) {
     return (
-        <DayStl> 
+        <DayStl>
             <div>{props.name}</div>
-            </DayStl>
-
+        </DayStl>
     )
-}
+};
